@@ -33,6 +33,7 @@ struct GameView: View {
                 Text("タップ数: \(countNumber) / \(bombNumber)")
                     .font(.headline)
                 
+                // お宝ボタン
                 Button {
                     buttonTapped()
                 } label: {

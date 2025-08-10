@@ -17,6 +17,7 @@ struct StartView: View {
         
         Spacer()
         
+        // ゲームスタートボタン
         Button {
             
             currentScreen = .game
